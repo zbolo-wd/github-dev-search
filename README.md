@@ -1,1 +1,1 @@
-# github-dev-search
+A simple command-line application.
