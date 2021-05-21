@@ -1,1 +1,1 @@
-A simple command-line application.
+Search devs in GitHub by location.
