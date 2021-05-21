@@ -18,7 +18,7 @@ $ sudo apt-get install dart
 
 # Compile and run
 ```bash
-$ mkdir build
+$ mkdir -p build
 $ dart compile exe bin/github_dev_search.dart -o build/gds
 $ build/gds
 ```
