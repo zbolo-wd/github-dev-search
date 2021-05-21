@@ -4,7 +4,15 @@ Search devs in GitHub by location.
 | ----- | ------------------------- |
 | -l    | Location to search for.   |
 
-# Requirements
+# Use pre-built package form GitHub Packages
+### Linux
+```bash
+$ mv ./gds-x.y.z-* ./gds
+$ chmod +x ./gds
+$ ./gds
+```
+
+# Compile and run
 ## Install dart
 ### Install using apt-get
 ```bash
@@ -15,11 +23,13 @@ $ sudo sh -c 'wget -qO- https://storage.googleapis.com/download.dartlang.org/lin
 $ sudo apt-get update
 $ sudo apt-get install dart
 ```
-
-# Compile and run
+## Compile
 ```bash
 $ mkdir -p build
 $ dart compile exe bin/github_dev_search.dart -o build/gds
+```
+## Run
+```bash
 $ build/gds
 ```
 # Run without compile
